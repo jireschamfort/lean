@@ -1,4 +1,4 @@
-FROM centos
+FROM centos7
 MAINTAINER Jires
 RUN yum update -y
 RUN yum install curl vim wge unzip git -y
